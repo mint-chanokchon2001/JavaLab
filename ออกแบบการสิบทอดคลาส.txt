@@ -1,0 +1,32 @@
+Shopee
+
+class Banner {
+String textBannar = "Shopee";
+String fontFamily = "Ansana new";
+int fontSize = 30; 
+
+public String GetTextBanner() //ส่งค่าtextBannar กลับไป
+public String GetFontFamily() //ส่งค่า fontFamily กลับไป
+public String  GetFontSize() //ส่งค่า fontSize กลับไป
+}
+
+class Search {
+String textInput;
+String status;
+String textShow = "ค้นหาสินค้า";
+
+public void SetTextInput() //เซ็ทค่าให้ textInput
+public void Setstatus() //เซ็ทค่าให้ status
+public String GetTextShow() //ส่งค่า textShow กลับไป
+}
+
+class Item {
+String pathIcon = "myPC\Desktop\logo-icon.png"
+String text;
+String background = "White";
+
+public String GetPathIcon() //ส่งค่า pathIcon กลับไป
+public String SetText() //เซ็ทค่าให้ text
+public String GetBackground() //ส่งค่า background กลับไป
+
+}
